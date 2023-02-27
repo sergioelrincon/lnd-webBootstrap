@@ -17,6 +17,33 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+
+    <!-- Fuentes Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Estilos -->
+    <style>
+      #title {
+        background-color: #ff4c68;
+      }
+
+      h1 {
+        font-family: "Montserrat", sans-serif;
+      }
+
+      .navbar-brand {
+        font-family: "Ubuntu", sans-serif;
+      }
+
+      .container-fluid {
+        padding: 3% 5%;
+      }
+    </style>
   </head>
   <body>
     <!-- JavaScript Bootstrap -->
@@ -28,23 +55,51 @@
 
     <!-- Cabecera de la página. De momento solo contiene la barra de navegación -->
     <header id="title">
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
           <!-- Nombre de la aplicación que contiene un enlace a la página principal -->
           <a class="navbar-brand" href="index.html">MiAPP</a>
 
           <!-- Botón tipo hamburuesa que se muestra cuando se visualiza la web desde un dispositivo móvil -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuhamburguesa" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuhamburguesa"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div id="menuhamburguesa" class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
               <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Descarga</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Descarga</a>
+              </li>
             </ul>
           </div>
         </nav>
-    </header>
 
+        <!-- Imagen y botones de descarga -->
+        <div class="row">
+          <!-- Eslogan y botones de descarga-->
+          <div class="col-lg-6">
+            <h1>Una aplicación diferente a todas</h1>
+            <button>Descarga</button>
+            <button>Descarga</button>
+          </div>
+
+          <!-- Imagen de nuestra APP-->
+          <div class="col-sm-6">
+            <img src="./images/iphone6.png" />
+          </div>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
