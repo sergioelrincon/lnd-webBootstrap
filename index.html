@@ -26,22 +26,49 @@
       rel="stylesheet"
     />
 
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>    
+
     <!-- Estilos -->
     <style>
       #title {
         background-color: #ff4c68;
+        color: #fff;
       }
 
-      h1 {
+      body {
         font-family: "Montserrat", sans-serif;
       }
 
       .navbar-brand {
         font-family: "Ubuntu", sans-serif;
+        font-size: 2.5rem;
+        color: white;
+      }
+
+      .nav-link {
+        color: white;
+        font-size: 1.2rem;
       }
 
       .container-fluid {
         padding: 3% 15%;
+      }
+
+      .navbar {
+        padding-bottom: 4.5rem;
+      }
+
+      .nav-item {
+        padding: 0 18px;
+      }
+
+      #smartphone {
+          transform: rotate(25deg);
+      }     
+      
+      #eslogan {
+        font-size: 3.5rem;
       }
     </style>
   </head>
@@ -89,13 +116,17 @@
         <div class="row">
           <!-- Eslogan y botones de descarga-->
           <div class="col-lg-6">
-            <h1>Una aplicación diferente a todas</h1>
-            <button>Descarga</button>
-            <button>Descarga</button>
+            <h1 id="eslogan">Una aplicación diferente a todas</h1>
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button type="button" class="btn btn-lg btn-outline-light download-button">
+              <i class="fab fa-google-play"></i> Download
+            </button>
           </div>
 
           <!-- Imagen de nuestra APP-->
-          <div class="col-sm-6">
+          <div id="smartphone" class="col-sm-6">
             <img src="./images/iphone6.png" />
           </div>
         </div>
