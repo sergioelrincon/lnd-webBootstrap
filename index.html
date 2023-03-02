@@ -27,17 +27,21 @@
     />
 
     <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>    
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
 
     <!-- Estilos -->
     <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+      }
+      /* header id=title */
+
       #title {
         background-color: #ff4c68;
         color: #fff;
-      }
-
-      body {
-        font-family: "Montserrat", sans-serif;
       }
 
       .navbar-brand {
@@ -64,11 +68,31 @@
       }
 
       #smartphone {
-          transform: rotate(25deg);
-      }     
-      
+        transform: rotate(25deg);
+      }
+
       #eslogan {
         font-size: 3.5rem;
+      }
+
+      /* section id=features */
+      #features {
+        padding: 7% 15%;
+        text-align: center;
+        line-height: 1.5;
+        background-color: #fff;
+        z-index: 1;
+        position: relative;
+      }
+      .feature-box {
+        padding: 5%;
+      }
+      .icon {
+        color: #ef8172;
+        margin-bottom: 5%;
+      }
+      .icon :hover {
+        color: #ff4c68;
       }
     </style>
   </head>
@@ -80,7 +104,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <!-- Cabecera de la página. De momento solo contiene la barra de navegación -->
+    <!-- Encabezado de la página -->
     <header id="title">
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
@@ -120,7 +144,10 @@
             <button type="button" class="btn btn-dark btn-lg download-button">
               <i class="fab fa-apple"></i> Download
             </button>
-            <button type="button" class="btn btn-lg btn-outline-light download-button">
+            <button
+              type="button"
+              class="btn btn-lg btn-outline-light download-button"
+            >
               <i class="fab fa-google-play"></i> Download
             </button>
           </div>
@@ -132,5 +159,30 @@
         </div>
       </div>
     </header>
+
+    <!-- Características -->
+    <section id="features">
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-check-circle icon fa-5x"></i>
+          <h3>Integer sit amet</h3>
+          <p>Ut hendrerit in ipsum a suscipit.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-bullseye icon fa-5x"></i>
+          <h3>Nam lobortis</h3>
+          <p>Orci varius natoque penatibus et magnis dis parturient montes.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-heart icon fa-5x"></i>
+          <h3>Vivamus eget</h3>
+          <p>
+            Praesent sem nisl, fringilla sollicitudin malesuada et, molestie vel
+            elit.
+          </p>
+        </div>
+      </div>
+    </section>
+
   </body>
 </html>
