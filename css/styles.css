@@ -104,3 +104,25 @@ body {
   .pricing-column {
     padding: 3% 2%;
   }
+
+/************************************** footer id=footer */  
+  .social {
+    padding-bottom: 5%;
+  }
+
+  #footer {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 100px 15% 20%;
+    color:white;
+  }
+
+  .spanSpace {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .social {
+    padding-bottom: 5%;
+  }
+
