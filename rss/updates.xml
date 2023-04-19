@@ -8,14 +8,14 @@
     <item>
       <title>v3.4</title>
       <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
-      <author>sergioramos@ieselrincon.es</author>
+      <author>sergioramos@ieselrincon.es (Sergio Ramos)</author>
       <description>
         Nullam et suscipit leo, sed porta mauris. Nam in lacus accumsan,
         vulputate ligula vitae, placerat nisl. Maecenas dignissim sem augue, non elementum ex
         euismod at. Integer semper nunc lobortis libero accumsan facilisis. In ultrices ac felis ut
         egestas. 
       </description>
-      <guid>3</guid>
+      <guid isPermaLink="false">4</guid>
     </item>
     <item>
       <title>v3.3</title>
@@ -32,19 +32,19 @@
         placerat sed, fringilla a mi. Sed tincidunt, tellus non luctus hendrerit, mi sem gravida
         sem, ac imperdiet orci magna in lacus.
       </description>
-      <guid>3</guid>
+      <guid isPermaLink="false">3</guid>
     </item>
     <item>
       <title>v3.2</title>
       <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
       <description>Nueva interfaz gráfica</description>
-      <guid>2</guid>
+      <guid isPermaLink="false">2</guid>
     </item>
     <item>
       <title>v3.1</title>
       <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
       <description>Integración con Google Calendar</description>
-      <guid>1</guid>
+      <guid isPermaLink="false">1</guid>
     </item>
   </channel>
 </rss>
