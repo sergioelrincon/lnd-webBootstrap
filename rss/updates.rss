@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>MiAPP</title>
+    <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+    <description>Una aplicación diferente a todas</description>
+    <item>
+      <title>v3.2</title>
+      <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+      <description>Nueva interfaz gráfica</description>
+    </item>
+    <item>
+      <title>v3.1</title>
+      <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+      <description>Integración con Google Calendar</description>
+    </item>
+  </channel>
+</rss>
