@@ -5,6 +5,21 @@
     <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
     <description>Noticias del sector</description>
     <category>Tecnología</category>    
+
+    <item>
+      <title>Noticia2</title>
+      <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+      <author>sergioramos@ieselrincon.es (Sergio Ramos)</author>
+      <description>
+        Nullam et suscipit leo, sed porta mauris. Nam in lacus accumsan,
+        vulputate ligula vitae, placerat nisl. Maecenas dignissim sem augue, non elementum ex
+        euismod at. Integer semper nunc lobortis libero accumsan facilisis. In ultrices ac felis ut
+        egestas. 
+      </description>
+
+      <enclosure url="https://static.eldiario.es/clip/9306b94a-c019-4226-a1e1-81bd9d118f0b_16-9-aspect-ratio_default_0.jpg" length="181814" type="image/jpeg"/>
+    </item>    
+
     <item>
       <title>Noticia1</title>
 
@@ -18,5 +33,8 @@
       </description>      
 
     </item>
+
+
+
   </channel>
 </rss>
