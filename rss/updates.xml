@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+    <title>Noticias</title>
+    <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+    <description>Noticias del sector</description>
+    <category>Tecnología</category>    
+    <item>
+      <title>Noticia1</title>
+
+      <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+      <author>sergioramos@ieselrincon.es (Sergio Ramos)</author>
+      <description>
+        Nullam et suscipit leo, sed porta mauris. Nam in lacus accumsan,
+        vulputate ligula vitae, placerat nisl. Maecenas dignissim sem augue, non elementum ex
+        euismod at. Integer semper nunc lobortis libero accumsan facilisis. In ultrices ac felis ut
+        egestas. 
+      </description>      
+
+    </item>
+  </channel>
+  <channel>
     <title>MiAPP</title>
     <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
     <description>Una aplicación diferente a todas</description>
