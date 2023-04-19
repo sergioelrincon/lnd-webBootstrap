@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>MiAPP</title>
+    <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+    <description>Una aplicación diferente a todas</description>
+    <category>Web development</category>
+    <item>
+      <title>v3.4</title>
+      <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+      <author>sergioramos@ieselrincon.es</author>
+      <description>
+        Nullam et suscipit leo, sed porta mauris. Nam in lacus accumsan,
+        vulputate ligula vitae, placerat nisl. Maecenas dignissim sem augue, non elementum ex
+        euismod at. Integer semper nunc lobortis libero accumsan facilisis. In ultrices ac felis ut
+        egestas. 
+      </description>
+      <guid>3</guid>
+    </item>
+    <item>
+      <title>v3.3</title>
+      <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+      <author>sergioramos@ieselrincon.es</author>
+      <description>
+        Maecenas at orci non quam volutpat sagittis. Cras gravida varius justo. Vestibulum eleifend
+        finibus lorem nec pulvinar. Donec id nibh ligula. Curabitur ornare malesuada imperdiet.
+        Quisque ac vehicula mauris. Nullam et suscipit leo, sed porta mauris. Nam in lacus accumsan,
+        vulputate ligula vitae, placerat nisl. Maecenas dignissim sem augue, non elementum ex
+        euismod at. Integer semper nunc lobortis libero accumsan facilisis. In ultrices ac felis ut
+        egestas. Sed sit amet orci eros. Integer aliquet volutpat mi vel interdum. Fusce lectus dui,
+        scelerisque vel augue vel, cursus hendrerit metus. Donec diam ipsum, cursus sit amet
+        placerat sed, fringilla a mi. Sed tincidunt, tellus non luctus hendrerit, mi sem gravida
+        sem, ac imperdiet orci magna in lacus.
+      </description>
+      <guid>3</guid>
+    </item>
+    <item>
+      <title>v3.2</title>
+      <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+      <description>Nueva interfaz gráfica</description>
+      <guid>2</guid>
+    </item>
+    <item>
+      <title>v3.1</title>
+      <link>https://sergioelrincon.github.io/lnd-webBootstrap/</link>
+      <description>Integración con Google Calendar</description>
+      <guid>1</guid>
+    </item>
+  </channel>
+</rss>
